@@ -2,6 +2,7 @@
 /* This is
  * my
  * program 
+ *main -entry
  */
 int main (void) {
 puts ("\"Programming is like building a multilingual puzzle");
