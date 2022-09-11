@@ -15,13 +15,15 @@ int n, p;
 {
 	for (p = n + 1; p <= '9'; p++)
 {
-		if (n != p)
+	if (n != p)
 	{
 		putchar(n);
 		putchar(p);
 		if (n != '8' || p != '9')
-		putchar(',');
-		putchar(' ');
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 }
 }
