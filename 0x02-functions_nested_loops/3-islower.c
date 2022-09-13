@@ -2,15 +2,15 @@
 /**
 *_islower - Prints lowercase numbers
 *
-*@c: letter being tested
+*@c: Number to pass to _islower function
 *
 *Return: 1 if lower case
 */
 int _islower(int c)
 {
 
-	if (c >= 0 && c <= 1000)
-		return (1);
-	else
-		return (0);
+if (c >= 97 && c <= 122)
+	return (1);
+else
+	return (0);
 }
