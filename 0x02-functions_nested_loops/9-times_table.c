@@ -12,21 +12,25 @@ int a, b, product;
 	{
 		for (b = 0 ; b <= 9; b++)
 		{
-			product = a * b;
+			product = (a * b);
 
-			if (b != 0)
+			if (product <= 9)
 			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + product);
 			}
-			if (b == 0)
+			else if (product == 0)
 			{
 				_putchar('0');
 
 			}
 
-			else if (product >= 10)
+			else if (product > 9)
 			{
+				_putchar(',');
+				_putchar(' ');
 				_putchar((product / 10) + '0');
 				_putchar((product % 10) + '0');
 			}
