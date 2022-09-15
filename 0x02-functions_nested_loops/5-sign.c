@@ -2,6 +2,8 @@
 /**
 *print_sign - Prints signs of numbers
 *
+*@n: The number to be tested
+*
 *Return: 1 when positive 0 when negative else -1
 */
 int print_sign(int n)
